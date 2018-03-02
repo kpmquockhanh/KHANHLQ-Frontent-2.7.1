@@ -1,0 +1,30 @@
+// Color
+$yellow:#fbcc4b;
+$bg-color-box:#ffc70b;
+
+$web-color:#ddae27;
+$special-color:#ffc70b;
+$bg-contact-color:#242a31;
+$bg-logo-color:#386678;
+$filter:#15b4e3;
+$rectangle:#b8b5b4;
+
+//size
+$height-top: 20vw;
+$height-mid: 32vw;
+$height-bot: 60vw;
+$height-contact: 30vw;
+
+$height-special: $height-top+$height-mid+$height-bot - $height-contact;
+$height-logo: 11vw;
+$height-filter: $height-bot - $height-logo;
+$text-top:2vw;
+$title1: 3vw;
+$title2: 6vw;
+$title3: 1.5vw;
+$width-title3: 50vw;
+$left-special: 8vw;
+$right-title-top:7vw;
+$left-rec:3.5vw;
+$top-rec:21.5vw;
+

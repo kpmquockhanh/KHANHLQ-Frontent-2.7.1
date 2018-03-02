@@ -1,0 +1,26 @@
+{
+  "name": "khanhlq-frontent-1.5-gulp",
+  "version": "1.0.0",
+  "description": "Thiết kế laytou cơ bản.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpmquockhanh/KHANHLQ-Frontent-1.5-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpmquockhanh/KHANHLQ-Frontent-1.5-gulp/issues"
+  },
+  "homepage": "https://github.com/kpmquockhanh/KHANHLQ-Frontent-1.5-gulp#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp-sass": "^3.1.0"
+  }
+}

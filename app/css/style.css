@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat.otf");
+  src: url("fonts/Montserrat.otf") format("woff"), url("fonts/Montserrat.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Montserrat-B";
+  src: url("fonts/Montserrat-Bold.otf");
+  src: url("fonts/Montserrat-Bold.otf") format("woff"), url("fonts/Montserrat-Bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Montserrat-L";
+  src: url("fonts/Montserrat-Light.otf");
+  src: url("fonts/Montserrat-Light.otf") format("woff"), url("fonts/Montserrat-Light.otf") format("opentype"); }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  width: 100%;
+  font-family: Montserrat, Arial, sans-serif; }
+  body .clear {
+    clear: both; }
+  body .top {
+    height: 20vw;
+    /*background-color: purple;*/
+    color: #fbcc4b;
+    font-family: Montserrat-B;
+    /*background-color: red;*/ }
+    body .top .toptext:last-child {
+      margin-top: 0%; }
+    body .top .toptext {
+      font-size: 2vw;
+      float: right;
+      width: 50%;
+      text-align: right;
+      margin-right: 2vw;
+      margin-top: 8vw; }
+    body .top .box {
+      width: 5vw;
+      height: 5vw;
+      background-color: #ffc70b;
+      opacity: 0.8;
+      float: right;
+      margin-top: 8vw; }
+  body .mid {
+    background-color: #242a31;
+    height: 32vw;
+    width: 100%; }
+    body .mid .rectangle {
+      height: 2vw;
+      width: 26.5vw;
+      background-color: #b8b5b4;
+      float: right; }
+    body .mid .title {
+      clear: both;
+      margin-right: 7vw;
+      margin-top: 2vw;
+      text-align: right; }
+    body .mid .title1 {
+      font-size: 3vw;
+      color: white;
+      font-weight: bold; }
+    body .mid .title2 {
+      font-size: 6vw;
+      color: #fbcc4b;
+      font-family: Montserrat-B; }
+    body .mid .title3 {
+      font-size: 1.5vw;
+      color: white;
+      font-family: Montserrat;
+      width: 50vw;
+      float: right;
+      margin-top: 1vw; }
+  body .bot {
+    clear: both;
+    height: 60vw;
+    background-image: url("../images/joshua-ness-225844.jpg");
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: #242a31;
+    background-blend-mode: lighten; }
+    body .bot > img {
+      width: 100vw;
+      position: absolute; }
+    body .bot .filter {
+      height: 49vw;
+      background-color: #15b4e3;
+      opacity: 0.5;
+      /*width: 65vw;*/
+      width: 65vw;
+      position: absolute;
+      right: 0vw; }
+    body .bot .contact {
+      background-color: #242a31;
+      width: 35vw;
+      height: 30vw;
+      position: absolute;
+      bottom: 0px;
+      z-index: 1; }
+    body .bot .gr {
+      margin-top: 2vw;
+      margin-left: 8vw;
+      display: flex;
+      align-items: center; }
+      body .bot .gr::first-child {
+        margin-top: 6vw;
+        margin-bottom: 0vw; }
+      body .bot .gr img {
+        display: inline-block;
+        width: 10%; }
+      body .bot .gr .info {
+        display: inline-block;
+        color: white;
+        font-size: 1.5vw;
+        margin-left: 3vw; }
+    body .bot .web {
+      font-size: 1.7vw;
+      font-family: Montserrat-B;
+      color: #ddae27;
+      margin-left: 8vw;
+      margin-top: 4vw; }
+    body .bot .logo {
+      display: inline;
+      width: 10vw; }
+      body .bot .logo:last-child {
+        margin-right: 2.5vw;
+        margin-left: 40vw; }
+        body .bot .logo:last-child img {
+          width: 9vw;
+          margin: 0vw; }
+      body .bot .logo img {
+        width: 5vw; }
+    body .bot .logos {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 0px;
+      right: 0vw;
+      background-color: #386678;
+      width: 100%;
+      height: 11vw; }
+    body .bot .title4 {
+      text-align: right;
+      font-size: 6vw;
+      font-family: Montserrat-B;
+      color: white;
+      margin-top: 2vw; }
+    body .bot .contentbot {
+      position: absolute;
+      right: 7vw;
+      z-index: 2;
+      margin-top: 2vw; }
+      body .bot .contentbot p {
+        font-family: Montserrat-B;
+        font-size: 1.3vw;
+        color: white;
+        /*font-weight: bold;*/
+        width: 45vw;
+        float: right;
+        text-align: justify;
+        direction: rtl;
+        margin-top: 2vw; }
+        body .bot .contentbot p:last-child {
+          color: #242a31;
+          clear: right;
+          margin-top: 2vw; }
+  body .special {
+    background-color: #ffc70b;
+    width: 27vw;
+    height: 100vw;
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    left: 8vw; }
+    body .special .hey {
+      font-size: 6vw;
+      color: white;
+      font-family: Montserrat-B;
+      text-align: center;
+      margin-top: 5vw; }
+    body .special .designservice {
+      font-size: 1.7vw;
+      color: white;
+      font-family: Montserrat-L;
+      margin-top: 0px;
+      text-align: center; }
+    body .special .text1, body .special .text2 {
+      width: 20vw;
+      font-size: 2vw;
+      color: white;
+      margin-left: 3.5vw;
+      margin-right: 2.5vw;
+      margin-bottom: 5vw;
+      font-size: 1.5vw; }
+    body .special .text2 {
+      font-size: 2.5vw;
+      margin-top: 2vw;
+      font-family: Montserrat-B; }
+    body .special .rec1, body .special .rec2 {
+      width: 5vw;
+      height: 2vw;
+      background-color: white;
+      margin-top: 21.5vw;
+      margin-left: 3.5vw;
+      margin-bottom: 5%; }
+    body .special .rec2 {
+      margin-top: 12vw; }
