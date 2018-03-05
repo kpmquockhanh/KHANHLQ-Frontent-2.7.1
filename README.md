@@ -1,19 +1,19 @@
 
 # Bài tập Trainee Colombo 2018
 
-## Frontent 2.7 for intern
+## KHANHLQ-Frontent-2.7.1
 
+Viets ngắn lại cấu trúc css bài 1.5 với sass.
 
-
-Thiết kế laytou cơ bản.
-
-Thực hiện bởi [Lưu Quốc KHánh](https://github.com/kpmquockhanh)
+Thực hiện bởi [Lưu Quốc Khánh](https://github.com/kpmquockhanh)
 
 ## Liên kết
 
 - Đề bài: https://docs.google.com/spreadsheets/d/1AcPRWhkGZsbpEEnysr7i6qq9YZHvAOyGe_X_DFYu2TE/edit#gid=0
+          http://todomvc.com/examples/jquery/#/all
 
-- Bài làm: https://colombo-trainee.github.io/KHANHLQ-Frontent-2.7/
+- Bài làm: 
+    - https://kpmquockhanh.github.io/KHANHLQ-Frontent-2.7.1/
 
 ## Hướng dẫn cài đặt test/sử dụng nếu có
 
@@ -21,7 +21,7 @@ Thực hiện bởi [Lưu Quốc KHánh](https://github.com/kpmquockhanh)
 
 ## Kiến thức nắm được
 
-Cách sắp xếp bố cục, cách xây dựng nên một bố cục mong muốn
+Cách viết sass
 
 ## Todo
 
