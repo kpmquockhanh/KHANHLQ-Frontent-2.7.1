@@ -2,243 +2,244 @@
 @import "variable.scss";
 @import "fonts.scss";
 *{
-	margin: 0px;
-	padding: 0px;
+margin: 0px;
+padding: 0px;
 }
-	body{
-		width: 100%;
-		font-family: Montserrat, Arial, sans-serif;
-		.clear{
-			clear: both;
+body{
+	width: 100%;
+	font-family: Montserrat, Arial, sans-serif;
+}
+	.clear{
+		clear: both;
+	}
+	.top{
+		height: $height-top;
+		/*background-color: purple;*/
+		color: $yellow;//yellow
+		font-family: Montserrat-B;
+		/*background-color: red;*/
+		.toptext:last-child{
+			margin-top: 0%;
 		}
-		.top{
-			height: $height-top;
-			/*background-color: purple;*/
-			color: $yellow;//yellow
-			font-family: Montserrat-B;
-			/*background-color: red;*/
-			.toptext:last-child{
-				margin-top: 0%;
-			}
-			.toptext{
-				font-size: $text-top;//font text-top
-				float: right;
-				width: 50%;
-				text-align: right;
-				margin-right: $text-top;
-				margin-top: $text-top*4;
-			}
-			.box{
-				width: $text-top*2+1;
-				height: $text-top*2+1;
-				background-color: $bg-color-box;
-				opacity: 0.8;
-				float: right;
-				margin-top:$text-top*4;
-			}
+		.toptext{
+			font-size: $text-top;//font text-top
+			float: right;
+			width: 50%;
+			text-align: right;
+			margin-right: $text-top;
+			margin-top: $text-top*4;
 		}
-		.mid{
-			background-color: $bg-contact-color;
-			height: $height-mid;
-			width: 100%;
-			.rectangle{
-				height: 2vw;
-				width: 26.5vw;
-				background-color:$rectangle ;
-				float: right;
-			}
-			.title{
-				clear: both;
-				margin-right: $right-title-top;
-				margin-top: 2vw;
-				text-align: right;
-			}
-			.title1{
-				font-size: $title1;
-				color: white;
-				font-weight: bold;
-			}
-			.title2{
-				font-size: $title2;
-				color: $yellow;
-				font-family: Montserrat-B;
-			}
-			.title3{
-				font-size: $title3;
-				color: white;
-				font-family: Montserrat;
-				width: $width-title3;
-				float: right;
-				margin-top: 1vw;
-			}
-		}
-		.bot{
-			clear: both;
-			height: $height-bot;
-			background-image: url('../images/joshua-ness-225844.jpg');
-			background-size: cover;                      /* <------ */
-			background-repeat: no-repeat;
-			background-position: center;
-			position: relative;
-			background-color: $bg-contact-color;
-			background-blend-mode: lighten;
-			&>img{
-				width: 100vw;
-				position: absolute;
-			}
-			.filter{
-				height: $height-filter;
-				background-color: $filter;
-				opacity: 0.5;
-				/*width: 65vw;*/
-				width: 65vw;
-				position: absolute;
-				right: 0vw;
-			}
-			.contact{
-				background-color: $bg-contact-color;
-				width: 35vw;
-				height: $height-contact;
-				position: absolute;
-				bottom: 0px;
-				z-index: 1; 
-			}
-			.gr{
-				margin-top: 2vw;
-				margin-left: 8vw;
-				display: flex;
-				align-items: center;
-				&::first-child{
-					margin-top: 6vw;
-					margin-bottom: 0vw;
-				}
-				img{
-					display: inline-block;
-					width: 10%;
-				}
-				.info{
-					display: inline-block;
-					color: white;
-					font-size: 1.5vw;
-					margin-left: 3vw;
-				}
-			}
-			.web{
-				font-size: 1.7vw;
-				font-family: Montserrat-B;
-				color: $web-color;
-				margin-left: $left-special;
-				margin-top: 4vw;
-			}
-			.logo{
-				display: inline;
-				width: 10vw;
-				&:last-child{
-					margin-right: 2.5vw;
-					margin-left: 40vw;
-					img{
-						width: 9vw;
-						margin: 0vw;
-					}
-				}
-				img{
-					width: 5vw;
-				}
-			}
-			.logos{
-				display: flex;
-				flex-direction: row-reverse;
-				align-items: center;
-				justify-content: center;
-				position: absolute;
-				bottom: 0px;
-				right: 0vw;
-				background-color: $bg-logo-color;
-				width: 100%;
-				height: 11vw;
-			}
-			.title4{
-				text-align: right;
-				font-size: 6vw;
-				font-family: Montserrat-B;
-				color: white;
-				margin-top: 2vw;
-			}
-			.contentbot{
-				position: absolute;
-				right: $right-title-top;
-				z-index: 2;
-				margin-top: 2vw;
-				p{
-					font-family: Montserrat-B;
-					font-size: 1.3vw;
-					color: white;
-					/*font-weight: bold;*/
-					width: 45vw;
-					float: right;
-					text-align: justify;
-					direction:rtl;
-					margin-top: 2vw;
-					&:last-child{
-						color: $bg-contact-color;
-						clear: right;
-						margin-top: 2vw;
-					}
-				}
-			}
-			
-		}
-		.special{
-			background-color: $special-color;
-			width: 27vw;
-			height: 100vw;
-			opacity: 0.9;
-			position: absolute;
-			top: 0px;
-			left: $left-special;
-			.hey{
-				font-size: 6vw;
-				color: white;
-				font-family: Montserrat-B;
-				text-align: center;
-				margin-top: 5vw;
-			}
-			.designservice{
-				font-size: 1.7vw;
-				color: white;
-				font-family: Montserrat-L;
-				margin-top: 0px;
-				text-align: center;
-			}
-			.text1{
-				width: 20vw;
-				font-size: 2vw;
-				color: white;
-				margin-left: 3.5vw;
-				margin-right: 2.5vw;
-				margin-bottom: 5vw;
-				font-size: 1.5vw;
-			}
-			.text2{
-				@extend .text1;
-				font-size: 2.5vw;
-				margin-top: 2vw;
-				font-family: Montserrat-B;
-			}
-			.rec1{
-				width: 5vw;
-				height: 2vw;
-				background-color: white;
-				margin-top: $top-rec;
-				margin-left: $left-rec;
-				margin-bottom: 5%;
-			}
-			.rec2{
-				@extend .rec1;
-				margin-top: 12vw;
-			}
+		.box{
+			width: $text-top*2+1;
+			height: $text-top*2+1;
+			background-color: $bg-color-box;
+			opacity: 0.8;
+			float: right;
+			margin-top:$text-top*4;
 		}
 	}
+	.mid{
+		background-color: $bg-contact-color;
+		height: $height-mid;
+		width: 100%;
+		.rectangle{
+			height: 2vw;
+			width: 26.5vw;
+			background-color:$rectangle ;
+			float: right;
+		}
+		.title{
+			clear: both;
+			margin-right: $right-title-top;
+			margin-top: 2vw;
+			text-align: right;
+		}
+		.title1{
+			font-size: $title1;
+			color: white;
+			font-weight: bold;
+		}
+		.title2{
+			font-size: $title2;
+			color: $yellow;
+			font-family: Montserrat-B;
+		}
+		.title3{
+			font-size: $title3;
+			color: white;
+			font-family: Montserrat;
+			width: $width-title3;
+			float: right;
+			margin-top: 1vw;
+		}
+	}
+	.bot{
+		clear: both;
+		height: $height-bot;
+		background-image: url('../images/joshua-ness-225844.jpg');
+		background-size: cover;                      /* <------ */
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		background-color: $bg-contact-color;
+		background-blend-mode: lighten;
+		&>img{
+			width: 100vw;
+			position: absolute;
+		}
+		.filter{
+			height: $height-filter;
+			background-color: $filter;
+			opacity: 0.5;
+			/*width: 65vw;*/
+			width: 65vw;
+			position: absolute;
+			right: 0vw;
+		}
+		.contact{
+			background-color: $bg-contact-color;
+			width: 35vw;
+			height: $height-contact;
+			position: absolute;
+			bottom: 0px;
+			z-index: 1; 
+		}
+		.gr{
+			margin-top: 2vw;
+			margin-left: 8vw;
+			display: flex;
+			align-items: center;
+			&::first-child{
+				margin-top: 6vw;
+				margin-bottom: 0vw;
+			}
+			img{
+				display: inline-block;
+				width: 10%;
+			}
+			.info{
+				display: inline-block;
+				color: white;
+				font-size: 1.5vw;
+				margin-left: 3vw;
+			}
+		}
+		.web{
+			font-size: 1.7vw;
+			font-family: Montserrat-B;
+			color: $web-color;
+			margin-left: $left-special;
+			margin-top: 4vw;
+		}
+		.logo{
+			display: inline;
+			width: 10vw;
+			&:last-child{
+				margin-right: 2.5vw;
+				margin-left: 40vw;
+				img{
+					width: 9vw;
+					margin: 0vw;
+				}
+			}
+			img{
+				width: 5vw;
+			}
+		}
+		.logos{
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			bottom: 0px;
+			right: 0vw;
+			background-color: $bg-logo-color;
+			width: 100%;
+			height: 11vw;
+		}
+		.title4{
+			text-align: right;
+			font-size: 6vw;
+			font-family: Montserrat-B;
+			color: white;
+			margin-top: 2vw;
+		}
+		.contentbot{
+			position: absolute;
+			right: $right-title-top;
+			z-index: 2;
+			margin-top: 2vw;
+			p{
+				font-family: Montserrat-B;
+				font-size: 1.3vw;
+				color: white;
+				/*font-weight: bold;*/
+				width: 45vw;
+				float: right;
+				text-align: justify;
+				direction:rtl;
+				margin-top: 2vw;
+				&:last-child{
+					color: $bg-contact-color;
+					clear: right;
+					margin-top: 2vw;
+				}
+			}
+		}
+		
+	}
+	.special{
+		background-color: $special-color;
+		width: 27vw;
+		height: 100vw;
+		opacity: 0.9;
+		position: absolute;
+		top: 0px;
+		left: $left-special;
+		.hey{
+			font-size: 6vw;
+			color: white;
+			font-family: Montserrat-B;
+			text-align: center;
+			margin-top: 5vw;
+		}
+		.designservice{
+			font-size: 1.7vw;
+			color: white;
+			font-family: Montserrat-L;
+			margin-top: 0px;
+			text-align: center;
+		}
+		.text1{
+			width: 20vw;
+			font-size: 2vw;
+			color: white;
+			margin-left: 3.5vw;
+			margin-right: 2.5vw;
+			margin-bottom: 5vw;
+			font-size: 1.5vw;
+		}
+		.text2{
+			@extend .text1;
+			font-size: 2.5vw;
+			margin-top: 2vw;
+			font-family: Montserrat-B;
+		}
+		.rec1{
+			width: 5vw;
+			height: 2vw;
+			background-color: white;
+			margin-top: $top-rec;
+			margin-left: $left-rec;
+			margin-bottom: 5%;
+		}
+		.rec2{
+			@extend .rec1;
+			margin-top: 12vw;
+		}
+	}
+
 
 
 
